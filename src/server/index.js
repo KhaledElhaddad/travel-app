@@ -32,10 +32,6 @@ const port = 8000;
 
 app.listen(port, () => console.log(`Server running! Running on localhost: ${port}!`));
 
-app.get('/all', (req, res) => {
-    res.send(projectData)
-})
-
 app.get('/geonames', (req, res) => {
   const {
     zip
