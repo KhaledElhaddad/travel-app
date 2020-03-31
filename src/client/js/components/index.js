@@ -1,15 +1,17 @@
+var currentPort = 8080;
+
 export const _fetchGeoNames = async (zip = '11230') => {
-    const url = `http://localhost:8000/geonames?zip=${zip}`;
+    const url = `http://localhost:${currentPort}/geonames?zip=${zip}`;
     return await fetch(url).then(response => response.json());
 };
 
 export const _fetchDarkSky = async (lat, long) => {
-    const url = `http://localhost:8000/darksky?lat=${lat}&long=${long}`;
+    const url = `http://localhost:${currentPort}/darksky?lat=${lat}&long=${long}`;
     return await fetch(url).then(response => response.json());
 };
 
 export const _fetchPixaby = async image => {
-    const url = `http://localhost:8000/pixabay?image=${image}`;
+    const url = `http://localhost:${currentPort}/pixabay?image=${image}`;
     return await fetch(url).then(response => response.json());
 };
 

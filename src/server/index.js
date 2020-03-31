@@ -28,7 +28,7 @@ app.use(express.static('dist'));
 
 
 // Setup Server
-const port = 8000;
+const port = 8080;
 
 app.listen(port, () => console.log(`Server running! Running on localhost: ${port}!`));
 
