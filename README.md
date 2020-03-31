@@ -14,15 +14,14 @@ To start project quickly `npm run start-reloader`
 
 To run test `npm run test`
 
+## APIs in server backend
+* port we use is `8000`
+* `/geonames`
+* `/darksky`
+* `/pixabay`
 
 ## Services we use
-1 - [Geonames](http://www.geonames.org/export/web-services.html)
-2 - [Dark Sky](https://darksky.net/dev)
-3 - [Pixabay](https://pixabay.com/api/docs/)
+* [Geonames](http://www.geonames.org/export/web-services.html)
+* [Dark Sky](https://darksky.net/dev)
+* [Pixabay](https://pixabay.com/api/docs/)
 
-
-## APIs in server backend
-port we use is `8000`
-1 - `/geonames`
-2 - `/darksky`
-3 - `/pixabay`
