@@ -15,7 +15,7 @@ To start project quickly `npm run start-reloader`
 To run test `npm run test`
 
 ## APIs in server backend
-* port we use is `8000`
+* port we use is `8080`
 * `/geonames`
 * `/darksky`
 * `/pixabay`
